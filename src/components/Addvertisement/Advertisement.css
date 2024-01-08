@@ -1,0 +1,28 @@
+.advertisement-box{
+    width: 100%;
+    min-height: 20vh;
+    /* background-color: black; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* border: 10px solid red; */
+  
+}
+
+.advertisement-box .add-box{
+    width: calc(100%/4);
+    height: 100%;
+    /* border: 1px solid red; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.add-box img{
+    width: 80%;
+    height: 100%;
+}
+
+.add-box img:nth-child(1){
+    width: 40%;
+}

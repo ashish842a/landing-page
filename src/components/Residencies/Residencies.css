@@ -1,0 +1,43 @@
+.residencies{
+    width: 100%;
+    padding: 10px 20px;
+}
+
+.residencies-box{
+    width: 100%;
+    /* height: 60vh; */
+    /* border: 1px solid red; */
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.residencies-box .residencies-top{
+    display: flex;
+    flex-direction: column;
+}
+
+.residencies-box .residencies-bottom{
+    width: 100%;
+    height:100%;
+    /* border: 1px solid red; */
+    display: flex;
+    gap: 2.6rem;
+}
+
+.residencies-card{
+    width: calc(100%/4);
+    height: 100%;
+    transition: 0.5s cubic-bezier(0.19, 1, 0.22, 1);
+    border-radius: 30px;
+    cursor: pointer;
+}
+
+.residencies-card:hover{
+    transform: scale(1.03);
+    background-color: rgba(232, 232, 243, 0.32);
+}
+
+.img{
+    border-radius: 20px;
+}
